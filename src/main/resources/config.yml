@@ -1,0 +1,73 @@
+# =========================
+# GENERAL SETTINGS
+# =========================
+durability_loss: true # Enable tool durability loss
+
+# =========================
+# XP SETTINGS
+# =========================
+xp: # Enable XP drops
+  xp_drop_enabled: true
+  use_orbs: true
+  base_xp_amount: 1 # Base XP amount (will be multiplied by tool multipliers)
+
+# XP multipliers for tools
+multipliers:
+  hand: 1
+  wooden_hoe: 1
+  stone_hoe: 1
+  iron_hoe: 1
+  diamond_hoe: 2
+  golden_hoe: 3
+  netherite_hoe: 2
+
+# Drop probabilities for tools (for XP drop chance)
+probabilities:
+  hand: 1
+  wooden_hoe: 1
+  stone_hoe: 1
+  iron_hoe: 1
+  diamond_hoe: 1
+  golden_hoe: 1
+  netherite_hoe: 1
+
+# =========================
+# DROP SETTINGS
+# =========================
+# Drop multipliers for crops (affects the number of harvested crop items)
+drop_multipliers:
+  hand: 1
+  wooden_hoe: 1
+  stone_hoe: 1
+  iron_hoe: 1
+  diamond_hoe: 2
+  golden_hoe: 3
+  netherite_hoe: 2
+
+# =========================
+# CROP SETTINGS
+# =========================
+# Configure allowed replantable crops (these will be replanted after harvest)
+crop_settings:
+  enabled:
+    - WHEAT
+    - CARROTS
+    - POTATOES
+    - BEETROOTS
+    - NETHER_WART
+
+# =========================
+# INTEGRATIONS
+# =========================
+auraskills:
+  enabled: true
+  xp_multiplier: 1.0
+
+  farming_bonus:
+    enabled: true
+    per_level: 0.01   # +1% per level
+    max_bonus: 2.0    # cap at 200% total multiplier
+
+fortune:
+  enabled: true
+  per_level: 0.2

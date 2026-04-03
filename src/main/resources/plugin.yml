@@ -1,0 +1,20 @@
+name: SmartHarvest
+version: 1.0
+main: com.draconicvelum.SmartHarvest.SmartHarvestPlugin
+api-version: 1.21
+author: Draconic Velum
+description: Right-click harvest with AuraSkills support
+
+softdepend:
+  - AuraSkills
+  - CoreProtect
+
+commands:
+  smartharvest:
+    description: SmartHarvest reload
+    usage: /smartharvest reload
+
+permissions:
+  smartharvest.reload:
+    description: Allows reloading SmartHarvest
+    default: op
