@@ -37,7 +37,7 @@ Falls back to metadata system if unavailable.</p>
 ---
 
 ### <p align="center">🧩 Requirements</p>
-<p align="center">Paper / Spigot / Bukkit (1.20+)</p>
+<p align="center">Paper / Spigot / Bukkit / Folia (1.20+)</p>
 
 ---
 
